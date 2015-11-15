@@ -1,0 +1,86 @@
+<% content_for :title do %>My super sweet dashboard<% end %>
+
+<div class="gridster">
+  <select id="companies">
+    <option value="lifepoint">Life Point</option>
+    <option value="missionhealth">Mission Health</option>
+    <option value="ech">El Camhino Hospital</option>
+    <option value="ema">Emergency Medicine Associates</option>
+    <option value="valleycare">Valey Care</option>
+    <option value="lgh">Lancaster General Health</option>
+    <option value="sjmo">St. Joseph Mercy Oakland</option>
+    <option value="edgepark">Edgepark</option>
+    <option value="gundersen">Gundersen Health System</option>
+    <option value="mhhs">Memorial Hermann</option>
+    <option value="cottage">Cottage Health System</option>
+    <option value="kaweah">Kaweah Delta</option>
+    <option value="uromed">Uromed</option>
+    <option value="all" selected>All Companies</option>
+  </select>
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div class="company_tpv company_tpv_lifepoint" data-id="history_tpv_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_missionhealth" data-id="history_tpv_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_ech" data-id="history_tpv_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_ema" data-id="history_tpv_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_valleycare" data-id="history_tpv_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_lgh" data-id="history_tpv_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_sjmo" data-id="history_tpv_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_edgepark" data-id="history_tpv_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_gundersen" data-id="history_tpv_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_mhhs" data-id="history_tpv_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_cottage" data-id="history_tpv_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_kaweah" data-id="history_tpv_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_uromed" data-id="history_tpv_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv company_tpv_all" data-id="history_tpv_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div class="company_count company_count_lifepoint" data-id="history_count_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_missionhealth" data-id="history_count_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_ech" data-id="history_count_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_ema" data-id="history_count_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_valleycare" data-id="history_count_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_lgh" data-id="history_count_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_sjmo" data-id="history_count_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_edgepark" data-id="history_count_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_gundersen" data-id="history_count_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_mhhs" data-id="history_count_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_cottage" data-id="history_count_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_kaweah" data-id="history_count_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_uromed" data-id="history_count_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count company_count_all" data-id="history_count_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div class="company_tpv_hourly company_tpv_hourly_lifepoint" data-id="history_tpv_hourly_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_missionhealth" data-id="history_tpv_hourly_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_ech" data-id="history_tpv_hourly_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_ema" data-id="history_tpv_hourly_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_valleycare" data-id="history_tpv_hourly_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_lgh" data-id="history_tpv_hourly_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_sjmo" data-id="history_tpv_hourly_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_edgepark" data-id="history_tpv_hourly_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_gundersen" data-id="history_tpv_hourly_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_mhhs" data-id="history_tpv_hourly_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_cottage" data-id="history_tpv_hourly_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_kaweah" data-id="history_tpv_hourly_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_uromed" data-id="history_tpv_hourly_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_tpv_hourly company_tpv_hourly_all" data-id="history_tpv_hourly_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+    </li>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div class="company_count_hourly company_count_hourly_lifepoint" data-id="history_count_hourly_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_missionhealth" data-id="history_count_hourly_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_ech" data-id="history_count_hourly_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_ema" data-id="history_count_hourly_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_valleycare" data-id="history_count_hourly_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_lgh" data-id="history_count_hourly_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_sjmo" data-id="history_count_hourly_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_edgepark" data-id="history_count_hourly_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_gundersen" data-id="history_count_hourly_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_mhhs" data-id="history_count_hourly_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_cottage" data-id="history_count_hourly_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_kaweah" data-id="history_count_hourly_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_uromed" data-id="history_count_hourly_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_count_hourly company_count_hourly_all" data-id="history_count_hourly_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+    </li>
+  </ul>
+</div>

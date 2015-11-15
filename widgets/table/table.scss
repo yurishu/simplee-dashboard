@@ -1,0 +1,54 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #12b0c5;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$label-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-table {
+
+  background-color: $background-color;
+  vertical-align: top;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Helvetica, Arial, sans-serif;
+
+  .title {
+    color: $title-color;
+  }
+
+  td {
+    margin: 0 15px;
+    text-align: center;
+    color: $label-color;
+    border: 1px solid white;
+    font-size: 15px;
+    height: 20px;
+  }
+
+  th {
+    width: 200px;
+    border: 1px solid white;
+  }
+
+  .value {
+    margin-left: 12px;
+    font-weight: 600;
+    color: $value-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+}
