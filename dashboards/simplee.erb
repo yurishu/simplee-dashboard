@@ -17,6 +17,12 @@
     <option value="uromed">Uromed</option>
     <option value="all" selected>All Companies</option>
   </select>
+  <select id="email_categories">
+    <option value="new_bill">New Bill Emails</option>
+    <option value="reminder">Reminder Emails</option>
+    <option value="warning">Warning Emails</option>
+    <option value="total" selected>All Emails</option>
+  </select>
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div class="company_tpv company_tpv_lifepoint" data-id="history_tpv_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
@@ -97,6 +103,68 @@
       <div class="company_paper_statements company_paper_statements_kaweah" data-id="history_paper_statements_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
       <div class="company_paper_statements company_paper_statements_uromed" data-id="history_paper_statements_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
       <div class="company_paper_statements company_paper_statements_all" data-id="history_paper_statements_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_lifepoint" data-id="history_emails_new_bill_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_missionhealth" data-id="history_emails_new_bill_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_ech" data-id="history_emails_new_bill_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_ema" data-id="history_emails_new_bill_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_valleycare" data-id="history_emails_new_bill_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_lgh" data-id="history_emails_new_bill_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_sjmo" data-id="history_emails_new_bill_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_edgepark" data-id="history_emails_new_bill_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_gundersen" data-id="history_emails_new_bill_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_mhhs" data-id="history_emails_new_bill_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_cottage" data-id="history_emails_new_bill_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_kaweah" data-id="history_emails_new_bill_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_uromed" data-id="history_emails_new_bill_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_new_bill company_emails_new_bill_all" data-id="history_emails_new_bill_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+
+      <div class="company_emails company_emails_reminder company_emails_reminder_lifepoint" data-id="history_emails_reminder_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_missionhealth" data-id="history_emails_reminder_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_ech" data-id="history_emails_reminder_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_ema" data-id="history_emails_reminder_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_valleycare" data-id="history_emails_reminder_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_lgh" data-id="history_emails_reminder_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_sjmo" data-id="history_emails_reminder_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_edgepark" data-id="history_emails_reminder_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_gundersen" data-id="history_emails_reminder_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_mhhs" data-id="history_emails_reminder_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_cottage" data-id="history_emails_reminder_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_kaweah" data-id="history_emails_reminder_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_uromed" data-id="history_emails_reminder_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_reminder company_emails_reminder_all" data-id="history_emails_reminder_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+
+      <div class="company_emails company_emails_warning company_emails_warning_lifepoint" data-id="history_emails_warning_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_missionhealth" data-id="history_emails_warning_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_ech" data-id="history_emails_warning_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_ema" data-id="history_emails_warning_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_valleycare" data-id="history_emails_warning_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_lgh" data-id="history_emails_warning_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_sjmo" data-id="history_emails_warning_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_edgepark" data-id="history_emails_warning_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_gundersen" data-id="history_emails_warning_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_mhhs" data-id="history_emails_warning_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_cottage" data-id="history_emails_warning_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_kaweah" data-id="history_emails_warning_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_uromed" data-id="history_emails_warning_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_warning company_emails_warning_all" data-id="history_emails_warning_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+
+      <div class="company_emails company_emails_total company_emails_total_lifepoint" data-id="history_emails_total_lifepoint" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_missionhealth" data-id="history_emails_total_missionhealth" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_ech" data-id="history_emails_total_ech" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_ema" data-id="history_emails_total_ema" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_valleycare" data-id="history_emails_total_valleycare" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_lgh" data-id="history_emails_total_lgh" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_sjmo" data-id="history_emails_total_sjmo" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_edgepark" data-id="history_emails_total_edgepark" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_gundersen" data-id="history_emails_total_gundersen" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_mhhs" data-id="history_emails_total_mhhs" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_cottage" data-id="history_emails_total_cottage" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_kaweah" data-id="history_emails_total_kaweah" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_uromed" data-id="history_emails_total_uromed" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+      <div class="company_emails company_emails_total company_emails_total_all" data-id="history_emails_total_all" data-view="Rickshawgraph" data-renderer="bar" data-legend="true"></div>
+
     </li>
   </ul>
 </div>
